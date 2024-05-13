@@ -1,0 +1,12 @@
+set -o pipefail; /usr/bin/mariadb-dump --user=_ac9ffd2564a6a1db --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _ac9ffd2564a6a1db | /usr/bin/gzip >> ./velocis.localhost/private/backups/20240513_060001-velocis_localhost-database.sql.gz
+
+Backup Summary for velocis.localhost at 2024-05-13 06:00:03.755163
+Config  : ./velocis.localhost/private/backups/20240513_060001-velocis_localhost-site_config_backup.json 158.0B
+Database: ./velocis.localhost/private/backups/20240513_060001-velocis_localhost-database.sql.gz         917.2KiB
+Backup for Site velocis.localhost has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_ac9ffd2564a6a1db --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _ac9ffd2564a6a1db | /usr/bin/gzip >> ./velocis.localhost/private/backups/20240513_120001-velocis_localhost-database.sql.gz
+
+Backup Summary for velocis.localhost at 2024-05-13 12:00:03.694415
+Config  : ./velocis.localhost/private/backups/20240513_120001-velocis_localhost-site_config_backup.json 158.0B
+Database: ./velocis.localhost/private/backups/20240513_120001-velocis_localhost-database.sql.gz         928.1KiB
+Backup for Site velocis.localhost has been successfully completed

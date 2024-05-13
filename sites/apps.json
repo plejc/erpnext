@@ -1,0 +1,31 @@
+{
+    "frappe": {
+        "resolution": {
+            "commit_hash": null,
+            "branch": null
+        },
+        "required": [],
+        "idx": 1,
+        "version": "15.26.0"
+    },
+    "erpnext": {
+        "is_repo": true,
+        "resolution": {
+            "commit_hash": "5f376009d04d641b0076e392144902a5bd78581c",
+            "branch": "version-15"
+        },
+        "required": [],
+        "idx": 2,
+        "version": "15.23.0"
+    },
+    "hrms": {
+        "is_repo": true,
+        "resolution": {
+            "commit_hash": "b21a6ca935fcc2da2d05bd591bb8fd8ed756407a",
+            "branch": "version-15"
+        },
+        "required": [],
+        "idx": 3,
+        "version": "15.20.3"
+    }
+}
